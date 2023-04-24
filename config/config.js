@@ -1,11 +1,11 @@
 // MongoDB URI
-exports.mongoURI = process.env.MONGO_URI;
+exports.mongoURI = "mongodb+srv://manomay15:Manomay15@cluster0.5bcl5ba.mongodb.net/new";
 
 // JWT Tokens & Secret
-exports.jwtSecret = process.env.JWT_SECRET;
-exports.accessToken = process.env.ACCESS_TOKEN_SECRET;
-exports.refreshToken = process.env.REFRESH_TOKEN_SECRET;
+exports.jwtSecret = "hello";
+exports.accessToken = "db8fdbecf1d03ce5e6125c067733c0d51de209c";
+exports.refreshToken = "db8fdbecf1d03ce5e6125c067733c0d51de209c";
 
 // JWT Expiration Lifespan
-exports.accessTokenLife = process.env.ACCESS_TOKEN_LIFE;
-exports.refreshTokenLife = process.env.REFRESH_TOKEN_LIFE;
+exports.accessTokenLife = 100000000000000
+exports.refreshTokenLife = 1000000000000000;
